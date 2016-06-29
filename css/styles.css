@@ -148,6 +148,30 @@ nav h2 { display: none;
 }
 
 
+.browntab a { 
+    background-color:rgba(139,69,19, .8);
+    text-shadow: 2px 2px 8px #000
+}
+
+.browntab a:link { 
+    background-color:rgba(139,69,19, .6);
+}
+
+.browntab a:hover { 
+    background:rgba(139,69,19, 1);
+    text-shadow: 2px 2px 8px #0000ff
+}
+
+.browntab a:focus  { 
+    background-color:rgba(139,69,19, .7);
+    text-shadow: rgba(80, 247, 68, 1)
+}
+
+.browntab a:active  { 
+    background-color:rgba(139,69,19, .8)
+}
+
+
 /*footer styles*/
 
 
@@ -161,8 +185,8 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 }
 
 body {
-    background-image :url(../images/LogoMed.png), url(../images/footer.png);
-    background-position: top, bottom;
+    background-image :url(../images/LogoMed.png);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -272,8 +296,8 @@ body {
 @media only screen and (min-width:481px) and (max-width:768px) {
     
 body {
-    background-image :url(../images/LogoMed.png), url(../images/footer.png);
-    background-position: top, bottom;
+    background-image :url(../images/LogoMed.png);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -294,7 +318,7 @@ body {
 #mainNav ul li {
 
     float: left;
-    width: 33.3%;
+    width: 25%;
     text-align: center;
 }
     
@@ -372,9 +396,10 @@ body {
 
 @media only screen and (min-width:769px) {
 
+
 body {
-        background-image :url(../images/LogoLarge.png), url(../images/footer.png);
-        background-position: top, bottom;
+        background-image :url(../images/LogoLarge.png);
+        background-position: top;
         background-repeat: no-repeat;
         background-size: 100%;
     
@@ -396,7 +421,7 @@ body {
 
     float: left;
     margin: 19px 0 12px;
-    width: 33.3%;
+    width: 25%;
     text-align: center;
     color:beige
 }
