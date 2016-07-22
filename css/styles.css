@@ -173,7 +173,9 @@ nav h2 { display: none;
 
 
 /*footer styles*/
-
+    .notice { font-family:fantasy;
+    text-align: center;
+    font-size: 1.6em}
 
 /* ------------mobile styles----------------- */
 
@@ -489,6 +491,8 @@ body {
 
     
 /*footer styles*/
+
+    
 }
 
 
