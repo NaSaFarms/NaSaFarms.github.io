@@ -74,26 +74,26 @@ nav h2 { display: none;
 }
 
 
-.yellowtab a { 
+.greentab a { 
     background-color:rgba(236, 219, 59, 0.4);
     text-shadow: 2px 2px 8px #000
 }
 
-.yellowtab a:link { 
+.greentab a:link { 
     background-color:rgba(236, 219, 59, 0.5);
 }
 
-.yellowtab a:hover{ 
+.greentab a:hover{ 
     background-color:rgba(236, 219, 59, 0.8);
     text-shadow: 2px 2px 8px #ff0000
 }
 
-.yellowtab a:focus { 
+.greentab a:focus { 
     background-color:rgba(236, 219, 59, 0.65);
     text-shadow: 2px 2px 8px #ff0000;
 }
                     
-.yellowtab a:active { 
+.greentab a:active { 
     background-color:rgba(236, 219, 59, 1);
 }
 
@@ -124,26 +124,26 @@ nav h2 { display: none;
 
 
 
-.greentab a { 
+.yellowtab a { 
     background-color:rgba(80, 247, 68, 0.4);
     text-shadow: 2px 2px 8px #000
 }
 
-.greentab a:link { 
+.yellowtab a:link { 
     background-color:rgba(80, 247, 68, 0.4);
 }
 
-.greentab a:hover { 
+.yellowtab a:hover { 
     background:rgba(80, 247, 68, 0.8);
     text-shadow: 2px 2px 8px #0000ff
 }
 
-.greentab a:focus  { 
+.yellowtab a:focus  { 
     background-color:rgba(80, 247, 68, 0.55);
     text-shadow: 2px 2px 8px #0000ff 
 }
 
-.greentab a:active  { 
+.yellowtab a:active  { 
     background-color:rgba(80, 247, 68, 1)
 }
 
