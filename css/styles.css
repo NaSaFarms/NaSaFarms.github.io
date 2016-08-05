@@ -47,11 +47,26 @@ nav h2 { display: none;
     padding-top: 1em; }
 
 
-.video h1 {  font-family: cursive;
+h1 {font-size:  1.6em;
+    text-align: center;  
+    font-family: verdana;
             font-size: 1.5em}
 
-.video h2 { font-family: cursive;
-padding-bottom: 1em}
+h2 {font-size:  1.2em;
+    text-align: center; 
+    font-family: verdana;
+    padding-bottom: .5em}
+
+h3 {
+    text-align: center; 
+    font-family: verdana;
+    padding-bottom: .5em }
+
+p {
+    font-size:  1em;
+    text-align: center; 
+    font-family: verdana;
+    padding-bottom: .5em }
 
     div#centerDiv {
         width: 100%;
@@ -76,14 +91,18 @@ padding-bottom: 1em}
         padding: 0 12px;
         text-decoration: none;
         color:black;
-        border-right: 1px solid black;
+        border-left: 1px solid black;
         
     }
+
+.secondborder { border-right:1px solid black;}
+
 
 .order { 
     
     text-align: center;
     font-family: verdana;}
+
 
 /*header styles*/
 
@@ -218,18 +237,6 @@ padding-bottom: 1em}
 .browntab a:active  { 
     background-color:rgba(139,69,19, .8)
 }
-
-.bluetab a { background-color:transparent;
-            }
-
-.bluetab a:link { background-color:transparent; }
-
-.bluetab a:hover { background-color:rgba(69, 173, 226, 0.6);}
-
-.bluetab a:focus { background-color:rgba(69, 173, 226, 0.4);}
-
-.bluetab a:active { background-color:rgba(69, 173, 226, 0.0);
-                    }
 
 
 /*footer styles*/
@@ -553,4 +560,3 @@ body {
 
     
 }
-.centerUL li:last-child { border-right: none; }
