@@ -1,3 +1,7 @@
+
+
+
+
 /*limited reset*/
 html, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
     margin: 0;
@@ -51,13 +55,42 @@ nav h2 { display: none;
 .video h2 { font-family: cursive;
 padding-bottom: 1em}
 
+    div#centerDiv {
+        width: 100%;
+        text-align: center;
+        padding-top: 37%
+    }
+    ul.centerUL {
+        margin: 0px auto;
+        line-height: 2em;
+        padding-left: 0;
+    }
+    .centerUL li {
+        display: inline;
+        text-align: center;
+        
+    }
 
+    .centerUL li a {
+        font-family: verdana;
+        display: inline;
+        text-align: center;
+        padding: 0 12px;
+        text-decoration: none;
+        color:black;
+        border-right: 1px solid black;
+        
+    }
+
+.centerUL li:last-child { border-right: none; }
 
 /*header styles*/
 
 
 
 /*nav styles*/
+
+
 
 #mainNav {
     margin-bottom: .5em;
@@ -70,7 +103,6 @@ padding-bottom: 1em}
 
 #mainNav a, #mainNav h3 {
     display: block;
-    color: rgb(76, 67, 65);
     border: none;
     border-radius: .8em
 }
@@ -186,23 +218,24 @@ padding-bottom: 1em}
     background-color:rgba(139,69,19, .8)
 }
 
-.bluetab a { background-color:rgba(69, 173, 226, 0.6);
-            text-shadow: 2px 2px 8px #000}
+.bluetab a { background-color:transparent;
+            }
 
-.bluetab a:link { background-color:rgba(69, 173, 226, 0.4) }
+.bluetab a:link { background-color:transparent; }
 
-.bluetab a:hover { background-color:rgba(69, 173, 226, 0.8);
-                   text-shadow: 2px 2px 8px #0000ff}
+.bluetab a:hover { background-color:rgba(69, 173, 226, 0.6);}
 
-.bluetab a:focus { background-color:rgba(69, 173, 226, 0.8);
-text-shadow: 2px 2px 8px #0000ff}
+.bluetab a:focus { background-color:rgba(69, 173, 226, 0.4);}
 
 .bluetab a:active { background-color:rgba(69, 173, 226, 0.0);
                     }
 
 
 /*footer styles*/
-    .notice { font-family:fantasy;
+    .notice { 
+    
+    display: block;    
+    font-family:fantasy;
     text-align: center;
     font-size: 1.6em}
 
@@ -231,8 +264,7 @@ body {
 #mainNav {
     width: auto;
     margin: 0 auto;
-    background: transparent; 
-    padding-top: 40%;
+    
 }
 
     
@@ -342,14 +374,14 @@ body {
 #mainNav {
 
     font-size: 90%;
-    padding-top:40%;
+    
     
 }
 
 #mainNav ul li {
 
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
 }
     
@@ -438,11 +470,6 @@ body {
 
 
 /*nav styles*/
-
-    
-#mainNav {
-    padding-top: 38%
-}
     
 #mainNav li {
     position: relative;
@@ -451,8 +478,8 @@ body {
 #mainNav ul li {
 
     float: left;
-    margin: 19px 0 12px;
-    width: 20%;
+    margin: .5em 0 .5em;
+    width: 25%;
     text-align: center;
     color:beige
 }
@@ -464,6 +491,8 @@ body {
     color: beige;
 }
 
+    
+    
     
 /*gallery styles*/
 
@@ -523,5 +552,4 @@ body {
 
     
 }
-
-
+.centerUL li:last-child { border-right: none; }
