@@ -7,7 +7,6 @@
         <title>NaSa Farms</title>
         <link rel="shortcut icon" href="images/favicon.ico">
         <link href="css/styles.css" rel="stylesheet" media="screen, projection">
-        <link  href="css/lightbox.css" rel="stylesheet" >
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript" ></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript" ></script>
         <script src="js/NaSaFarms.js" type="text/javascript" ></script>
@@ -20,7 +19,7 @@
         {
                 load: [
                         'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
-                'js/NaSaFarms.js'
+                'js/NaSaFarms.js', 'src/js/jquery.swipebox.js'
                 ]
         },
         {
@@ -179,7 +178,6 @@
 
     </footer>    
     
-    <script src="js/lightbox.min.js" type="text/javascript" ></script> 
     	<script src="src/js/jquery.swipebox.js"></script>
     
     <script>    
@@ -204,8 +202,15 @@
 			$( '#gallery' ).click( function( e ) {
 				e.preventDefault();
 				$.swipebox( [
-					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
-					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+					{ href : 'images/kale_tn.jpg', title : 'Curly Kale' },
+					{ href : 'images/kale2_tn.jpg', title : 'Curly Kale' },
+                    { href : 'images/kaleRR_tn.jpg', title : 'Red Russian Kale' },
+					{ href : 'images/sc_tn.jpg', title : 'Swiss Chard' },
+                    { href : 'images/sc2_tn.jpg', title : 'Swiss Chard' },
+					{ href : 'images/bean_tn.jpg', title : 'Beans' },
+                    { href : 'images/zuke_tn.jpg', title : 'Zucchini' },
+					{ href : 'images/zuke3_tn.jpg', title : 'Zucchini' },
+                    { href : 'images/onions_tn.jpg', title : 'Onions' }
 				] );
 			} );
 
