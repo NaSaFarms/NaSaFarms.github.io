@@ -58,3 +58,31 @@
         </div>  
     
 </article>
+
+    	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Video */
+			$( '.swipebox-video' ).swipebox();
+
+			/* Dynamic Gallery */
+			$( '#gallery' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'https://pbs.twimg.com/media/Cn-6nNqXEAQGlt2.jpg', title : 'Rosemary' },
+					{ href : 'https://pbs.twimg.com/media/Cn-6EaPXEAAXiQn.jpg', title : 'Thyme, Basil and Oregano' },
+                    { href : 'https://pbs.twimg.com/media/Cn-6FMBW8AECKxf.jpg', title : 'Thyme, Basil and Oregano' },
+					{ href : 'https://pbs.twimg.com/media/Cn-3NWrWEAAjJNe.jpg', title : 'Chives' },
+                    { href : 'https://pbs.twimg.com/media/Cn-8dgjXgAE5sNs.jpg', title : 'Thyme' },
+					{ href : 'https://pbs.twimg.com/media/Cn-1ziNXEAE2WHG.jpg', title : 'Thyme' },
+                    { href : 'https://pbs.twimg.com/media/Cn-4PdwWIAEmFe0.jpg', title : 'Oregano' },
+					{ href : 'https://pbs.twimg.com/media/Cn-4O2IXgAQNe_d.jpg', title : 'Oregano' },
+                    
+				] );
+			} );
+
+      });
+	</script>
